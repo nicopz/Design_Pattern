@@ -1,0 +1,16 @@
+trennt die Daten (Model), die Darstellung (View) und die Steuerlogik (Controller), um die Codebasis strukturierter und wartbarer zu machen.
+
+Verwendung:
+-Webanwendungen, JavaFX, Swing
+-GUI-Anwendungen mit komplexer Benutzerinteraktion
+-Spiele-Engines oder mobile Apps, die eine klare Trennung zwischen Logik und UI benötigen
+
+Vorteile:
+-Klare Trennung von Logik und UI
+-Ermöglicht paralelle Entwicklung durch Trennung der Verantwortlichkeiten
+-Die View kann sich ändern ohne die Geschäftslogik anzupassen
+
+Nachteile:
+-Mehr Komplexität durch mehrere Komponenten
+-Enge Kopplung zwischen Controller und Model kann zu Problemen führen
+-Kann bei kleinen Projekten Overhead verursachen

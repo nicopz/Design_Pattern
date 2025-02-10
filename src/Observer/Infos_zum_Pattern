@@ -1,0 +1,17 @@
+ermöglicht eine Lose Kopplung zwischen Objekten, indem ein Subjekt definiert, das eine Liste von Beobachtern verwaltet
+und sie bei Änderungen benachrichtigt
+
+Verwendung:
+-Event-Handling in GUI-Anwendungen (Swing, JavaFX)
+-Reaktive Programme
+-Design von Benachrichtigungssystemen
+
+Vorteile:
+-Reduziert direkte Abhängigkeiten zwischen Komponenten
+-Ermöglicht eine dynamische Anzahl von Abonnenten
+-Gut geeignet für ereignisgesteuerte Architekturen
+
+Nachteile:
+-Kann schwer zu debuggen sein, wenn viele Observer registriert sind
+-Beobachter müssen effizient implementiert sein, um Performance-Probleme zu vermeiden
+-Unbedachte Implementierung kann zu Speicherlecks führen (Wenn Observer nicht entfernt werden)

@@ -1,0 +1,10 @@
+Verwendung:
+-Reduzierung der Anzahl der Datenbankzugriffe durch Bündelung der Daten
+-Vermeidung unnötiger Abhängigkeiten  zwischen Datenbank und der Logik
+
+Vorteile:
+-Bessere Performance, da weniger Datenbankzugriffe erforderlich sind
+-Einfache Serealisierung in Formate wie JSON oder XML
+
+Nachteile:
+-Oft zusätzliche Codewartung, da Änderungen in an der Datenstruktur manuell in DTOs übernommen werden müssen

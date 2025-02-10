@@ -1,0 +1,16 @@
+Stellt sicher, das eine Klasse genau eine Instanz hat und einen globalen Zugriffspunkt auf diese Instanz bereitstellt
+
+Verwendung:
+-Datenbankverbindung
+-Logging-Mechanismen
+-Caching Mechanismen
+
+Vorteile:
+-Spart Ressourcen, da nur eine Instanz existiert
+-Einfach zu implementieren und global verfügbar
+-Kann als zentraler Koordinator dienen
+
+Nachteile:
+-Kann eine versteckte Abhängigkeit im Code sein (führt zu schwer testbarem Code)
+-Probleme mir multithreading-Umgebungen, wenn nicht korrekt synchronisiert
+-Erschwert Unit-Tests, da sich der globale Zustand nicht leicht zurücksetzen lässt
