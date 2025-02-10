@@ -1,3 +1,5 @@
+DTOs werden verwendet, um Daten zwischen Schichten einer Anwendung zu übertragen, ohne unnötige Geschäftslogik einzufügen.
+
 Verwendung:
 -Reduzierung der Anzahl der Datenbankzugriffe durch Bündelung der Daten
 -Vermeidung unnötiger Abhängigkeiten  zwischen Datenbank und der Logik
